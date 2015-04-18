@@ -159,6 +159,7 @@ public class MainActivity extends ActionBarActivity {
             if (v.getId() == R.id.zero) {
                 disp.setText(temp);
                 flag = false;
+
             } else if (v.getId() == R.id.dot) {
                 if (!dotFlag) {
                     dotFlag = true;
