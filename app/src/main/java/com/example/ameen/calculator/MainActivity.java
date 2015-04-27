@@ -174,7 +174,6 @@ public class MainActivity extends ActionBarActivity {
 
         }
 
-
     }
 
     public void mul(View v) {
