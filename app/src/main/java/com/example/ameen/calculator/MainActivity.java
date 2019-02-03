@@ -33,6 +33,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         disp = (EditText) findViewById(R.id.Result_view);
 
+        assert df!= null ;
 
         df.setDecimalSeparatorAlwaysShown(false);
         df.setMaximumIntegerDigits(8);
